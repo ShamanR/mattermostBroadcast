@@ -1,0 +1,3 @@
+mattermostName
+~channel1
+mattermostEmail
