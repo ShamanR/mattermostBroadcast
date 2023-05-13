@@ -1,5 +1,5 @@
 # MattermostBroadcast
-An easy way to send a message to many people and channels in mattermost
+An easy way to send direct message to many people and channels in mattermost
 
 ## How to use
 1. insert your message in what.txt
