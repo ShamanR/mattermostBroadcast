@@ -1,1 +1,7 @@
-Hi. have you already seen the last episode of Last Of Us Show? Don't you think it's incredible?
+Собрал такой github проектик в субботу.
+https://github.com/ShamanR/mattermostBroadcast
+
+Вроде в супер примитивном формате все делает.
+Можно собрать бинарник для массовой рассылки.
+
+Думаю что чуть позже накручу поддержку csv формата для рассылки
