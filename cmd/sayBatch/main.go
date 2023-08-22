@@ -11,9 +11,9 @@ import (
 
 const (
 	EnvVarMattermostUrl          = "MATTERMOST_URL"
-	DefaultMattermostUrl         = "https://mt.avito.ru" // If you want to build binary without ane envs
+	DefaultMattermostUrl         = "" // If you want to build binary without ane envs
 	EnvVarMattermostAccessToken  = "MATTERMOST_ACCESS_TOKEN"
-	DefaultMattermostAccessToken = "1g3kg5tuajfjtnbfgzz1rckpah" // If you want to build binary without ane envs
+	DefaultMattermostAccessToken = "" // If you want to build binary without ane envs
 )
 
 func main() {
