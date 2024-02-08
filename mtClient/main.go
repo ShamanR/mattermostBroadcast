@@ -2,6 +2,7 @@ package mtClient
 
 import (
 	"fmt"
+
 	"github.com/mattermost/mattermost-server/v6/model"
 )
 
