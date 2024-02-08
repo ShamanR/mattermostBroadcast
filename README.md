@@ -8,6 +8,17 @@ An easy way to send direct message to many people and channels in mattermost
 
 Supports userName, user@Email, ~channel in who.txt
 
+## Specific mode
+You can use `--spec` or `-s` option when you need to send specific messages to certain people.
+In this case it will read receipents and appropriate messages form `spec.csv` file.
+It should follow this schema, without empty or unexepected fields:
+```
+who,what,
+mattermostName,message for @mattermostName,
+~channel1,message for ~channel1,
+mattermostEmail,message for user associated with this email,
+```
+
 ## How to build binary
 You will need Golang 1.20 installed
 ```go build -o ./sayBatch ./cmd/sayBatch/main.go```

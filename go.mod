@@ -2,7 +2,10 @@ module github.com/ShamanR/mattermostBroadcast
 
 go 1.20
 
-require github.com/mattermost/mattermost-server/v6 v6.7.2
+require (
+	github.com/gocarina/gocsv v0.0.0-20231116093920-b87c2d0e983a
+	github.com/mattermost/mattermost-server/v6 v6.7.2
+)
 
 require (
 	github.com/blang/semver v3.5.1+incompatible // indirect
